@@ -1,3 +1,32 @@
 date,amount,category,description
 24-08-2024,500.34,Income,Salary
-14-07-2024,403.0,Income,teaching
+14-07-2024,403.0,Income,Teaching
+18-08-2024,54000.0,Income,Salary
+01-07-2024,120.50,Expense,Groceries
+03-07-2024,89.99,Expense,Utilities
+05-07-2024,45.75,Expense,Transport
+08-07-2024,300.00,Expense,Shopping
+10-07-2024,15.99,Expense,Entertainment
+12-07-2024,65.00,Expense,Dining Out
+16-07-2024,200.00,Expense,Rent
+20-07-2024,150.00,Expense,Insurance
+22-07-2024,40.00,Expense,Subscriptions
+25-07-2024,35.99,Expense,Healthcare
+28-07-2024,78.00,Expense,Groceries
+30-07-2024,50.00,Expense,Transport
+02-08-2024,600.00,Income,Freelance
+04-08-2024,49.99,Expense,Utilities
+06-08-2024,24.00,Expense,Entertainment
+09-08-2024,120.00,Expense,Groceries
+11-08-2024,55.75,Expense,Shopping
+13-08-2024,150.00,Expense,Rent
+15-08-2024,20.00,Expense,Subscriptions
+17-08-2024,35.99,Expense,Healthcare
+19-08-2024,95.00,Expense,Dining Out
+21-08-2024,43.50,Expense,Transport
+23-08-2024,89.99,Expense,Utilities
+26-08-2024,30.00,Expense,Entertainment
+28-08-2024,500.00,Income,Investment
+30-08-2024,75.00,Expense,Insurance
+02-09-2024,60.00,Expense,Groceries
+04-09-2024,45.00,Expense,Transport
