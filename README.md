@@ -58,3 +58,11 @@ streamlit run streamlit_tracker.py
 - `streamlit_tracker.py`: The main Streamlit application script.
 - `data_entry.py`: Helper functions for data entry (imported in the main script).
 - `finance_data.csv`: CSV file used to store transaction data.
+
+## Project Structure
+finance_tracker/
+├── data_entry.py
+├── finance_data.csv
+├── main.py
+├── streamlit_tracker.py
+└── requirements.txt

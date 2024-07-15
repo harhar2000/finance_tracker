@@ -1,6 +1,8 @@
 import pandas as pd
 import csv
 from datetime import datetime
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import streamlit as st
 
@@ -29,19 +31,12 @@ class CSV:
             "category": category,
             "description": description
         }
-        # Read the current data
         df = pd.read_csv(cls.CSV_FILE)
-        # Create a DataFrame for the new entry
         new_entry_df = pd.DataFrame([new_entry])
-        # Concatenate the new entry with the existing data
         df = pd.concat([df, new_entry_df], ignore_index=True)
-        # Convert the date column to datetime
         df["date"] = pd.to_datetime(df["date"], format=cls.FORMAT)
-        # Sort the DataFrame by the date column
         df = df.sort_values(by="date")
-        # Convert the date column back to the original format
         df["date"] = df["date"].dt.strftime(cls.FORMAT)
-        # Write the sorted DataFrame back to the CSV file
         df.to_csv(cls.CSV_FILE, index=False)
         st.success("Entry added and data sorted by date")
 
@@ -94,11 +89,10 @@ def plot_transactions(df):
     plt.title("Income and Expenses over Time")
     plt.legend()
     plt.grid(True)
-    plt.xticks(rotation=45)  # Rotate the x-axis labels
-    plt.gcf().autofmt_xdate()  # Automatic date formatting
+    plt.xticks(rotation=45)
+    plt.gcf().autofmt_xdate()
     st.pyplot(plt)
 
-# Streamlit UI
 def main():
     st.set_page_config(page_title="Finance Tracker", page_icon="💰", layout="wide")
     st.markdown("## 💰 Finance Tracker")
