@@ -45,24 +45,23 @@ streamlit run streamlit_tracker.py
     - Enter the date, amount, category, and description (optional) of the transaction.
     - Click "Add Transaction" to save the entry.
 
+<img src="1_add_transaction.png" alt="Add Transaction" width="400"/>
+
 2. **View Transactions and Summary**:
     - Select "View transactions and summary" from the sidebar.
     - Enter the start date and end date for the date range you want to view.
     - Click "Get Transactions" to see the transactions and the summary (total income, total expense, and net savings) for the specified date range.
 
+<img src="2_transaction.png" alt="View Transactions" width="400"/>
+
 3. **Visualise Transactions**:
     - A plot will be generated showing income and expenses over time for the specified date range.
+
+<img src="3_expense.jpg" alt="Visualise Transaction" width="400"/>
+
 
 ## Files
 
 - `streamlit_tracker.py`: The main Streamlit application script.
 - `data_entry.py`: Helper functions for data entry (imported in the main script).
 - `finance_data.csv`: CSV file used to store transaction data.
-
-## Project Structure
-finance_tracker/
-├── data_entry.py
-├── finance_data.csv
-├── main.py
-├── streamlit_tracker.py
-└── requirements.txt

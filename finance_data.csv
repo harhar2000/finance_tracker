@@ -7,8 +7,9 @@ date,amount,category,description
 10-07-2024,15.99,Expense,Entertainment
 12-07-2024,65.0,Expense,Dining Out
 14-07-2024,403.0,Income,Teaching
-15-07-2024,0.0,Income,
 15-07-2024,100.0,Expense,Shopping
+15-07-2024,10.0,Income,Newpaper delivery
+15-07-2024,0.0,Income,
 16-07-2024,200.0,Expense,Rent
 20-07-2024,150.0,Expense,Insurance
 22-07-2024,40.0,Expense,Subscriptions
